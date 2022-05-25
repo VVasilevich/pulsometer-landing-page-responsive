@@ -22,22 +22,4 @@
         right: -66px;
         left: auto;
     }
-    .slick-dots {
-        display: flex;
-        margin-top: 40px;
-        justify-content: center;
-        list-style-type: none;
-        li {
-            width: 7px;
-            height: 7px;
-            margin: 0 8px;
-            font-size: 0;
-        }
-        button {
-            border: none;
-            border-radius: 100%;
-            height: 10px;
-            background-color: $main-color
-        }
-    }
 }

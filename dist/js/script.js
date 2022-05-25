@@ -4,22 +4,9 @@ $(document).ready(function(){
 		adaptiveHeight: true,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/slider/left.svg"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/slider/right.svg"></button>',
-		responsive: [
-			{
-			  breakpoint: 767,
-			  settings: {
-				arrows: false,
-				dots: true
-			  }
-			},
-			{
-			  breakpoint: 575,
-			  settings: {
-				arrows: false,
-				dots: true
-			  }
-			}
-		]
+		centerMode: true,
+		variableWidth: true,
+		slidesToShow: 1
 	});
 
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
