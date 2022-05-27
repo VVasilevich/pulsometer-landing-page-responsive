@@ -217,6 +217,7 @@
         }
     }
     .footer {
+        height: auto;
         &__info {
             padding: 33px 0 56px 0;
             width: 100%;
@@ -229,6 +230,9 @@
         &__phone {
             font-size: 18px;
             margin-bottom: 25px;
+        }
+        iframe {
+            display: none;
         }
     }
     #consultation, #order {
