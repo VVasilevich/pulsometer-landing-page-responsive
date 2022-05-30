@@ -55,8 +55,8 @@ gulp.task('icons', function () {
 });
 
 gulp.task('mailer', function () {
-    return gulp.src("src/mailer/**/*")
-        .pipe(gulp.dest("dist/mailer"));
+    return gulp.src("src/php/mailer/**/*")
+        .pipe(gulp.dest("dist/php/mailer"));
 });
 
 gulp.task('images', function () {
